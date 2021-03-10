@@ -1,0 +1,30 @@
+{
+  "name": "vk-pubsub-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinomanick/vk-pubsub-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinomanick/vk-pubsub-js/issues"
+  },
+  "homepage": "https://github.com/vinomanick/vk-pubsub-js#readme",
+  "dependencies": {
+    "pubsub-js": "^1.9.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
+}
